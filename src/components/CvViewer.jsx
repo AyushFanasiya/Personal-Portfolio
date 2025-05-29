@@ -1,4 +1,7 @@
 const CVViewer = () => {
+  // Add timestamp to prevent caching
+  const pdfUrl = `/AyushFanasiya.pdf?v=${Date.now()}`;
+  
   return (
     <div className="cv-viewer-container" style={{ 
       width: '100%', 
@@ -7,7 +10,7 @@ const CVViewer = () => {
       padding: '20px'
     }}>
       <iframe
-        src="/AyushFanasiya.pdf"
+        src={pdfUrl}
         title="CV Viewer"
         style={{ 
           width: "100%", 
@@ -19,7 +22,7 @@ const CVViewer = () => {
       >
         <p>
           Your browser doesn't support PDF viewing. 
-          <a href="/AyushFanasiya.pdf" download>
+          <a href={pdfUrl} download>
             Click here to download the PDF
           </a>
         </p>
