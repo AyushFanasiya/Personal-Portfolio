@@ -27,7 +27,7 @@ export const projects = [
       { name: "Vite", icon: vite },
     ],
     image: "Personal Portfolio .png",
-    liveLink: "https://react-portfolio-neon-theta.vercel.app",
+    liveLink: "https://personal-portfolio-lyart-phi-42.vercel.app/",
     githubLink: "https://github.com/AyushFanasiya/React-Portfolio"
   },
   {
