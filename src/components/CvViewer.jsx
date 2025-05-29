@@ -1,7 +1,6 @@
 const CVViewer = () => {
-  // Use the base URL from Vercel deployment
-  const baseUrl = "https://personal-portfolio-lyart-phi-42.vercel.app";
-  const pdfUrl = `${baseUrl}/AyushFanasiya.pdf`;
+  // Since we confirmed public directory works, use direct path
+  const pdfUrl = "/AyushFanasiya.pdf";
   
   return (
     <div className="cv-viewer-container" style={{ 
@@ -10,9 +9,9 @@ const CVViewer = () => {
       backgroundColor: 'var(--bg-color)',
       padding: '20px'
     }}>
-      <iframe
-        src={pdfUrl}
-        title="CV Viewer"
+      <object
+        data={pdfUrl}
+        type="application/pdf"
         style={{ 
           width: "100%", 
           height: "100%", 
@@ -27,7 +26,7 @@ const CVViewer = () => {
             Click here to download the PDF
           </a>
         </p>
-      </iframe>
+      </object>
     </div>
   );
 };
