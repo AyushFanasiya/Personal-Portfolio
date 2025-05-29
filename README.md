@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React to showcase projects, sk
 
 ## 🚀 Live Demo
 
-[Visit Portfolio](https://react-portfolio-neon-theta.vercel.app)
+[Visit Portfolio](https://personal-portfolio-lyart-phi-42.vercel.app/)
 
 ## ✨ Features
 
@@ -74,7 +74,7 @@ portfolio-react/
 
 - [GitHub](https://github.com/AyushFanasiya)
 - [LinkedIn](https://www.linkedin.com/in/ayush-fanasiya)
-- [Portfolio](https://react-portfolio-neon-theta.vercel.app)
+- [Portfolio](https://personal-portfolio-lyart-phi-42.vercel.app/)
 
 ## 📄 License
 
