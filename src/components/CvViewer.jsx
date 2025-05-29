@@ -1,6 +1,6 @@
 const CVViewer = () => {
-  // Add timestamp to prevent caching
-  const pdfUrl = `/AyushFanasiya.pdf?v=${Date.now()}`;
+  // Use absolute URL with origin to ensure correct path resolution
+  const pdfUrl = `${window.location.origin}/AyushFanasiya.pdf`;
   
   return (
     <div className="cv-viewer-container" style={{ 
