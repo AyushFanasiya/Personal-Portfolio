@@ -1,0 +1,37 @@
+#about-all {
+  background: var(--certifications-bg);
+}
+
+.about-all-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  gap: 15px;
+}
+
+.about-all-button button {
+  padding: 0.3rem 1rem;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.about-all-button button.active {
+  opacity: 0.7 !important;
+}
+
+@media (max-width: 480px) {
+    .about-all-btn-span {
+        display: none;
+    }
+
+    .about-all-button {
+      padding-bottom: 0;
+      margin-bottom: -15px;
+    }
+}
