@@ -7,7 +7,7 @@ const CVViewer = () => {
       padding: '20px'
     }}>
       <iframe
-        src="/AyushFanasiya.pdf"
+        src="/Ayush_Fanasiya.pdf"
         title="CV Viewer"
         style={{ 
           width: "100%", 
@@ -19,7 +19,7 @@ const CVViewer = () => {
       >
         <p>
           Your browser doesn't support PDF viewing. 
-          <a href="/AyushFanasiya.pdf" download>
+          <a href="/Ayush_Fanasiya.pdf" download>
             Click here to download the PDF
           </a>
         </p>
