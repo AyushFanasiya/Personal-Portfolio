@@ -1,6 +1,7 @@
 const CVViewer = () => {
-  // Use absolute URL with origin to ensure correct path resolution
-  const pdfUrl = `${window.location.origin}/AyushFanasiya.pdf`;
+  // Use the base URL from Vercel deployment
+  const baseUrl = "https://personal-portfolio-lyart-phi-42.vercel.app";
+  const pdfUrl = `${baseUrl}/AyushFanasiya.pdf`;
   
   return (
     <div className="cv-viewer-container" style={{ 
